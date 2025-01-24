@@ -1,8 +1,8 @@
 package org.example;
 
 public class Car {
-    private String carName;
-    private String productionDate;
+    protected String carName;
+    protected String productionDate;
 
     // car 的 construction
     public Car(String name, String productionDate) {
